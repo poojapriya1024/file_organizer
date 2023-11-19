@@ -31,9 +31,3 @@ python app.py
 3. The app will categorize the files in the specified folder based on their extensions.
 
 ![image](https://user-images.githubusercontent.com/135540262/284079983-225c5fac-bac9-4106-9bbc-3c65d0bc6d8f.png)
-
-![index](Screenshot(296).png)
-
-
-
-
