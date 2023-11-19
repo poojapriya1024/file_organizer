@@ -9,11 +9,12 @@
 <body>
     <div class="container">
         <h2>a simple and efficient file organizer</h2>
-        <form action="{{url_for('index')}}" method="post">
+        <form action="{{url_for('index')}}" method="post" id="organize-form">
             <label for="folder-path">Upload Folder Path</label>
             <input required type="text" id="folder-path" name="folder-path">
-            <button type="submit" class="submit-btn">Organize Files</button>
+            <button type="submit" class="submit-btn" id="submit-button">Organize Files</button>
         </form>
     </div>
+
 </body>
 </html>

@@ -7,10 +7,9 @@ app = Flask(__name__)
 def index():
     if request.method == "POST":
         folder_path = request.form.get("folder-path")
-
+        #function which has the organizing logic
         organize_files(folder_path)
-        print(f"the folder path received is : {folder_path}")
-
+        
     return render_template("index.html")
 
 def organize_files(folder_path):
@@ -52,8 +51,6 @@ def organize_files(folder_path):
                     
                     #finally, move the file to the new path
                     shutil.move(file_path, os.path.join(folder_path_new, file))
-
-    print("All organized!")
 
 
 if __name__ == "__main__":
