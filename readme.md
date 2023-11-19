@@ -18,7 +18,7 @@ Make sure you have the following installed on your machine:
 git clone https://github.com/poojapriya1024/file_organizer
 
 # Navigate to the project directory in bash or VS Code
-cd file_organizer 
+cd file-organizer 
 
 # Installing
 pip install Flask
@@ -31,7 +31,7 @@ python app.py
 3. The app will categorize the files in the specified folder based on their extensions.
 
 
-
+![index](Screenshot(296).png)
 
 
 
