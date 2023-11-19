@@ -18,7 +18,7 @@ Make sure you have the following installed on your machine:
 git clone https://github.com/poojapriya1024/file_organizer
 
 # Navigate to the project directory in bash or VS Code
-cd file-organizer 
+cd file_organizer 
 
 # Installing
 pip install Flask
